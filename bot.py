@@ -22,7 +22,7 @@ def run_server():
     app.run(host="0.0.0.0", port=8080)
 
 
-DB_FILE = "brawlhalla_users.json"
+DB_FILE = "brawlhalla_users.json" #replace the db by your own 
 
 
 def load_database():
